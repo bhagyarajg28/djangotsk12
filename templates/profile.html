@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% if p %}
+    username:{{ p.user.username }}<br>
+    email: {{ p.user.email }}<br>
+    first_name:{{ p.user.first_name }}<br>
+    last_name:{{ p.user.last_name }}<br>
+    unique_id:{{ p.UniqueId}}<br>
+    age:{{ p.Age}}<br>
+    image:{{ p.Image }}
+
+
+{% endif %}
+
+</body>
+</html>
